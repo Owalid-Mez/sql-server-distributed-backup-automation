@@ -1,0 +1,17 @@
+ServerName,ServerInstance,Username,Password,BatchFile
+Site-A,10.10.1.25\SQLPROD,db_admin,PwdA#2026,F:\savedb.bat
+Site-B,10.10.2.30\SQLEXPRESS,db_admin,PwdB@2026,D:\savedb.bat
+Site-C,10.10.3.18\SQLEXPRESS,db_backup,PwdC!2026,D:\savedb.bat
+Site-D,10.10.4.22\SQLPROD,db_backup,PwdD$2026,D:\savedb.bat
+Site-E,10.10.5.40\SQLEXPRESS,sql_operator,PwdE%2026,F:\savedb.bat
+Site-F,10.10.6.15\SQLPROD,sql_operator,PwdF^2026,D:\savedb.bat
+Site-G,10.10.7.19\SQLEXPRESS,db_service,PwdG&2026,D:\savedb.bat
+Site-H,10.10.8.27\SQLPROD,db_service,PwdH*2026,D:\savedb.bat
+Site-I,10.10.9.33\SQLPROD,backup_user,PwdI(2026,D:\backup_db.bat
+Site-J,10.10.10.45\SQLEXPRESS,backup_user,PwdJ)2026,D:\savedb.bat
+Site-K,10.10.11.21\SQLPROD,sql_backup,PwdK+2026,F:\savedb.bat
+Site-L,10.10.12.16\SQLEXPRESS,sql_backup,PwdL=2026,D:\savedb.bat
+Site-M,10.10.13.29\SQLPROD,db_admin,PwdM@2026,F:\savedb.bat
+Site-N,10.10.14.34\SQLEXPRESS,db_admin,PwdN#2026,F:\savedb.bat
+Site-O,10.10.15.41\SQLEXPRESS,db_operator,PwdO!2026,F:\savedb.bat
+Site-P,10.10.16.50\SQLPROD,db_operator,PwdP$2026,F:\savedb.bat
