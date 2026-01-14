@@ -18,10 +18,12 @@ This project provides a centralized and automated solution for running SQL Serve
 - Batch backup script present on target servers
 
 ## Usage
-1. Configure `conex.csv`
-2. Update credentials securely
-3. Run the PowerShell orchestrator script
-4. Review logs and status report
+
+1. Copy the `savedb.bat` file to each target SQL Server.
+2. Ensure the file path matches the `BatchFile` value in `conex.csv`.
+3. Configure the CSV file with the correct server and credential details.
+4. Run the PowerShell orchestration script.
+5. Review the consolidated log file for results.
 
 ## Security Notes
 - Avoid using `sa`
